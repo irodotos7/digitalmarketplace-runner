@@ -12,7 +12,7 @@ attrs==20.3.0
     # via jsonschema
 bcrypt==3.2.0
     # via paramiko
-black==21.11b1
+black==21.12b0
     # via -r requirements.in
 boto3==1.20.15
     # via -r requirements.in
@@ -115,8 +115,6 @@ pyyaml==5.4.1
     #   docker-compose
 redis==4.0.2
     # via -r requirements.in
-regex==2021.4.4
-    # via black
 requests==2.26.0
     # via
     #   -r requirements.in
