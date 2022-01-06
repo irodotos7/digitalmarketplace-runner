@@ -89,9 +89,9 @@ pip-tools==6.4.0
     # via -r requirements.in
 platformdirs==2.2.0
     # via black
-prettytable==2.4.0
+prettytable==2.5.0
     # via -r requirements.in
-psutil==5.8.0
+psutil==5.9.0
     # via -r requirements.in
 psycopg2-binary==2.9.2
     # via -r requirements.in
