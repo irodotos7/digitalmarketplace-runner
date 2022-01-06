@@ -89,7 +89,7 @@ pip-tools==6.4.0
     # via -r requirements.in
 platformdirs==2.2.0
     # via black
-prettytable==2.4.0
+prettytable==2.5.0
     # via -r requirements.in
 psutil==5.8.0
     # via -r requirements.in
@@ -147,7 +147,7 @@ tomli==1.1.0
     #   mypy
 types-pyyaml==6.0.1
     # via -r requirements.in
-types-redis==4.0.3
+types-redis==4.1.3
     # via -r requirements.in
 types-requests==2.26.1
     # via -r requirements.in
