@@ -91,7 +91,7 @@ pip-tools==6.4.0
     # via -r requirements.in
 platformdirs==2.2.0
     # via black
-prettytable==2.5.0
+prettytable==3.0.0
     # via -r requirements.in
 psutil==5.9.0
     # via -r requirements.in
