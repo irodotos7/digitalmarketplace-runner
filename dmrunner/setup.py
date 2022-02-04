@@ -337,7 +337,7 @@ def _setup_check_postgres_data_if_required(logger, settings, use_docker_services
                                 before_read = infile.tell()
 
                                 # Read and write in chunks to avoid macs failing on writes > 2GB
-                                outfile.write(infile.read(2 ** 30))
+                                outfile.write(infile.read(2**30))
                                 outfile.flush()
 
                     except KeyboardInterrupt:

@@ -14,3 +14,4 @@ config/sql/data/*
 code/*
 
 Brewfile.lock.json
+*.DS_Store
