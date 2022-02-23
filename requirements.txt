@@ -124,9 +124,9 @@ requests==2.27.1
     #   -r requirements.in
     #   docker
     #   docker-compose
-ruamel-yaml==0.17.0
+ruamel-yaml==0.17.21
     # via -r requirements.in
-ruamel-yaml-clib==0.2.2
+ruamel-yaml-clib==0.2.6
     # via ruamel-yaml
 s3transfer==0.5.0
     # via boto3
