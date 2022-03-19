@@ -79,7 +79,7 @@ mypy-extensions==0.4.3
     #   mypy
 packaging==21.3
     # via redis
-paramiko==2.7.2
+paramiko==2.10.1
     # via docker
 pathspec==0.9.0
     # via black
