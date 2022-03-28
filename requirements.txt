@@ -71,7 +71,7 @@ jmespath==0.10.0
     #   botocore
 jsonschema==3.2.0
     # via docker-compose
-mypy==0.941
+mypy==0.942
     # via -r requirements.in
 mypy-extensions==0.4.3
     # via
@@ -136,6 +136,7 @@ six==1.15.0
     #   configobj
     #   dockerpty
     #   jsonschema
+    #   paramiko
     #   pynacl
     #   python-dateutil
     #   websocket-client
