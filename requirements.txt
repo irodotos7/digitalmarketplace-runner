@@ -8,6 +8,8 @@ ansicolor==0.3.2
     # via -r requirements.in
 ansiwrap==0.8.4
     # via -r requirements.in
+async-timeout==4.0.2
+    # via redis
 attrs==20.3.0
     # via jsonschema
 bcrypt==3.2.0
@@ -117,7 +119,7 @@ pyyaml==5.4.1
     # via
     #   -r requirements.in
     #   docker-compose
-redis==4.1.4
+redis==4.2.1
     # via -r requirements.in
 requests==2.27.1
     # via
@@ -152,7 +154,7 @@ tomli==1.1.0
     #   mypy
 types-pyyaml==6.0.4
     # via -r requirements.in
-types-redis==4.1.17
+types-redis==4.1.19
     # via -r requirements.in
 types-requests==2.27.13
     # via -r requirements.in
