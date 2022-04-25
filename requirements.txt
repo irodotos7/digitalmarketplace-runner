@@ -152,7 +152,7 @@ tomli==1.1.0
     # via
     #   black
     #   mypy
-types-pyyaml==6.0.6
+types-pyyaml==6.0.7
     # via -r requirements.in
 types-redis==4.1.21
     # via -r requirements.in
