@@ -63,7 +63,7 @@ gnureadline==8.0.0
     # via -r requirements.in
 idna==2.10
     # via requests
-invoke==1.7.0
+invoke==1.7.1
     # via
     #   -r requirements.in
     #   digitalmarketplace-developer-tools
