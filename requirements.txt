@@ -154,7 +154,7 @@ tomli==1.1.0
     #   mypy
 types-pyyaml==6.0.7
     # via -r requirements.in
-types-redis==4.2.3
+types-redis==4.2.6
     # via -r requirements.in
 types-requests==2.27.25
     # via -r requirements.in
