@@ -306,16 +306,15 @@ def _setup_check_postgres_data_if_required(logger, settings, use_docker_services
         while not data_available():
             logger(
                 red("* No data is available.") + " When you press ENTER, a link will be opened for you. Please "
-                "download the file to `{data_path}` then press ENTER "
-                "again.".format(data_path=data_path),
+                f"download the file to `{data_path}` then press ENTER again. If you lack permissions to access the "
+                f"file, use a copy of the schema only from `config/sql/db-schema-dump.sql.gz`.",
                 end="",
             )
             input(" ")
             webbrowser.open(settings["data-dump-url"])
             logger("* ")
             logger(
-                "* Press ENTER, after saving the file to `{data_path}`, to continue, or type anything to "
-                "abort.".format(data_path=data_path),
+                f"* Press ENTER, after saving the file to `{data_path}`, to continue, or type anything to abort.",
                 end="",
             )
             user_input = input(" ").strip()
