@@ -22,6 +22,8 @@ botocore==1.27.22
     # via
     #   boto3
     #   s3transfer
+build==0.8.0
+    # via pip-tools
 certifi==2020.12.5
     # via requests
 cffi==1.14.5
@@ -73,23 +75,25 @@ jmespath==0.10.0
     #   botocore
 jsonschema==3.2.0
     # via docker-compose
-mypy==0.961
+mypy==0.971
     # via -r requirements.in
 mypy-extensions==0.4.3
     # via
     #   black
     #   mypy
 packaging==21.3
-    # via redis
+    # via
+    #   build
+    #   redis
 paramiko==2.10.1
     # via docker
 pathspec==0.9.0
     # via black
 pep517==0.10.0
-    # via pip-tools
+    # via build
 pexpect==4.8.0
     # via -r requirements.in
-pip-tools==6.6.2
+pip-tools==6.8.0
     # via -r requirements.in
 platformdirs==2.2.0
     # via black
@@ -151,6 +155,7 @@ toml==0.10.2
 tomli==1.1.0
     # via
     #   black
+    #   build
     #   mypy
 types-pyyaml==6.0.7
     # via -r requirements.in
