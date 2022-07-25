@@ -61,7 +61,7 @@ dockerpty==0.4.1
     # via docker-compose
 docopt==0.6.2
     # via docker-compose
-gnureadline==8.0.0
+gnureadline==8.1.2
     # via -r requirements.in
 idna==2.10
     # via requests
