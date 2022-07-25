@@ -95,7 +95,7 @@ fe / frontend - Run `invoke frontend-build` against specified apps*
         signal.signal(signal.SIGINT, signal.SIG_IGN)
 
         self._manager = multiprocessing.Manager()
-        self._apps: Dict[str, Dict[str, Any]] = self._manager.dict()
+        self._apps = cast(Dict[str, Dict[str, Any]], self._manager.dict())
 
         signal.signal(signal.SIGINT, curr_signal)  # Probably a race condition?
         # END
