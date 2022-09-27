@@ -99,7 +99,7 @@ platformdirs==2.2.0
     # via black
 prettytable==3.4.1
     # via -r requirements.in
-psutil==5.9.1
+psutil==5.9.2
     # via -r requirements.in
 psycopg2-binary==2.9.3
     # via -r requirements.in
