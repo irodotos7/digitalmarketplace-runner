@@ -14,7 +14,7 @@ attrs==20.3.0
     # via jsonschema
 bcrypt==3.2.0
     # via paramiko
-black==22.6.0
+black==22.8.0
     # via -r requirements.in
 boto3==1.24.22
     # via -r requirements.in
@@ -75,7 +75,7 @@ jmespath==0.10.0
     #   botocore
 jsonschema==3.2.0
     # via docker-compose
-mypy==0.971
+mypy==0.981
     # via -r requirements.in
 mypy-extensions==0.4.3
     # via
@@ -99,7 +99,7 @@ platformdirs==2.2.0
     # via black
 prettytable==3.4.1
     # via -r requirements.in
-psutil==5.9.1
+psutil==5.9.2
     # via -r requirements.in
 psycopg2-binary==2.9.3
     # via -r requirements.in
@@ -157,7 +157,7 @@ tomli==1.1.0
     #   black
     #   build
     #   mypy
-types-pyyaml==6.0.11
+types-pyyaml==6.0.12
     # via -r requirements.in
 types-redis==4.3.11
     # via -r requirements.in
