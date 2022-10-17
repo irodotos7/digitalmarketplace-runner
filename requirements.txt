@@ -101,7 +101,7 @@ prettytable==3.4.1
     # via -r requirements.in
 psutil==5.9.2
     # via -r requirements.in
-psycopg2-binary==2.9.3
+psycopg2-binary==2.9.4
     # via -r requirements.in
 ptyprocess==0.7.0
     # via pexpect
