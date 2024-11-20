@@ -1,3 +1,13 @@
+# MY STEPS
+1) install pyenv to manage multiple python versions
+2) ``pyenv install 3.9.7``
+   ``pyenv global 3.9.7``
+   ``python3 -m venv venv``
+3) install nvm to manage mltiple node versions
+4) ``nvm install --lts=fermium``
+5) make bootstrap
+6) invoke setup
+
 # Digital Marketplace Runner ('DMRunner')
 
 ** EXPERIMENTAL / UNDER DEVELOPMENT / IN NEED OF LOVE **
